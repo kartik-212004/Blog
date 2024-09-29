@@ -28,8 +28,11 @@ Follow the steps below to set up and run the project locally:
 ```bash
 git clone git@github.com:kartik-212004/Blog.git
 
+```bash
 cd blog-app
+
+```bash
 npm  run dev 
 or 
 yarn dev
-cd blog-app
+
