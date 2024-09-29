@@ -2,7 +2,6 @@
 
 A blog application that allows users to create, view, edit, and delete posts. The app is built using **React** and **TypeScript** on the frontend, with other supporting technologies like **Tailwind CSS** for styling.
 
-
 ## File Overview
 
 - **App.tsx**: Entry point for the main application.
@@ -28,11 +27,8 @@ Follow the steps below to set up and run the project locally:
 ```bash
 git clone git@github.com:kartik-212004/Blog.git
 
+```
 ```bash
-cd blog-app
+npm install
 
-```bash
-npm  run dev 
-or 
-yarn dev
-
+```
