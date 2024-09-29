@@ -57,7 +57,7 @@ export default function Footer() {
                   className=" placeholder:px-3 border border-gray-500 rounded-md sm:w-24 h-7 w-12 md:w-64"
                   type="text"
                 />
-                <button className="h-10 text-white md:w-48 sm:w-32 bg-blue-500 rounded-md my-2">
+                <button className="md:h-10 h-5 p-1 text-white text-[10px] text-xl md:w-48 sm:w-32 bg-blue-500 rounded-md my-2">
                   Subscribe
                 </button>
               </div>
@@ -77,7 +77,7 @@ export default function Footer() {
           <div className="flex space-x-4">
             <ul>Terms Of Use </ul>
             <ul>Privacy Policy</ul>
-            <ul> Cookies Policy</ul>
+            <ul>Cookies Policy</ul>
           </div>
         </div>
       </div>
