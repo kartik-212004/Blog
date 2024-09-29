@@ -54,10 +54,10 @@ export default function Footer() {
               <div className="flex flex-col items-center">
                 <input
                   placeholder="Your Email"
-                  className=" placeholder:px-3 border border-gray-500 rounded-md sm:w-24 h-7 w-12 md:w-64"
+                  className=" placeholder:px-3 border border-gray-500 rounded-md sm:w-24 md:h-10 h-5 w-12 md:w-64"
                   type="text"
                 />
-                <button className="md:h-10 h-5 p-1 text-white text-[10px] text-xl md:w-48 sm:w-32 bg-blue-500 rounded-md my-2">
+                <button className="md:h-10 h-5 p-1 text-white text-[10px] sm:text-xl md:w-48 sm:w-32 bg-blue-500 rounded-md my-2">
                   Subscribe
                 </button>
               </div>
