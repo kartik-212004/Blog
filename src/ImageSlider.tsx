@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import p1 from "./assets/Content.png"
-import p2 from "./assets/Content2.png"
+import p2 from "./assets/content2.png"
 import p3 from "./assets/OIP.jpg"
 import { Autoplay } from "swiper/modules"
 const images = [p1, p3, p2]
