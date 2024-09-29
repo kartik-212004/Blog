@@ -28,7 +28,15 @@ Follow the steps below to set up and run the project locally:
 git clone git@github.com:kartik-212004/Blog.git
 
 ```
+### 1. To The Project Folder
 ```bash
-npm install
-
+cd Blog
+```
+### 1. Installing Dependencies
+```bash 
+npm install 
+```
+### 1. Or
+```bash 
+yarn build 
 ```
