@@ -8,7 +8,7 @@ const images = [p1, p3, p2]
 
 const ImageSlider = () => {
   return (
-    <div className="w-[70rem] object-contain mx-auto">
+    <div className=" xl:w-[70rem] lg:w-[50rem] w-96 object-contain mx-auto md:w-[40rem]">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={30}
@@ -25,7 +25,7 @@ const ImageSlider = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover  xl:w-[70rem] lg:w-[50rem]  md:w-[40rem]"
             />
           </SwiperSlide>
         ))}

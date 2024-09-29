@@ -11,7 +11,7 @@ import Article1, {
 
 export function Grid() {
   return (
-    <div className="grid px-24 text-center mx-auto container grid-cols-3 gap-0">
+    <div className="grid md:px-24 text-center mx-auto container md:grid-cols-3 grid-cols-1 gap-0">
       <span>
         <Article1 />
       </span>

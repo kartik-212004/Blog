@@ -4,16 +4,14 @@ export default function Footer() {
   return (
     <>
       <div className="bg-gray-100 mt-5  relative bottom-0">
-        <div className="container mx-auto grid grid-cols-3  ">
-          <div className="space-y-4 flex flex-col items-center">
-            <h1 className="my-4 text-[1.3rem]">About</h1>
-            <div className="space-y-3">
-              <p className="text-gray-500">
+        <div className="container mx-auto grid sm:grid-cols-3 grid-cols-2  ">
+          <div className="space-y-4 sm:flex flex-col items-center hidden">
+            <h1 className="my-4 text-[1.3rem] md:w-fit ">About</h1>
+            <div className="space-y-3  ">
+              <p className="text-gray-500 md:w-fit w-36 text-center mx-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                 quos eum officia beatae voluptatem fuga ea et, harum ipsum iusto
-                doloribus ad quis! Ducimus vel quae nihil. Obcaecati laborum
-                amet asperiores non ducimus velit eaque, accusamus dolorem
-                itaque eveniet culpa temporibus et ea, blanditiis facilis.
+                doloribus ad quis! Ducimus vel quae nihil.
               </p>
               <p>
                 <Link to="https://mail.google.com/mail/?view=cm&fs=1&to=kartik200421@gmail.com">
@@ -41,7 +39,9 @@ export default function Footer() {
                 <Link to="https://github.com/kartik-212004">Github</Link>
               </li>
               <li>
-                <Link to="https:/linkedin.com/kartik-200421">Linked In</Link>
+                <Link to="https://www.linkedin.com/in/kartikbhatt2004/">
+                  Linked In
+                </Link>
               </li>
             </div>
           </div>
@@ -54,17 +54,17 @@ export default function Footer() {
               <div className="flex flex-col items-center">
                 <input
                   placeholder="Your Email"
-                  className=" placeholder:px-3 border border-gray-500 rounded-md h-7 w-64"
+                  className=" placeholder:px-3 border border-gray-500 rounded-md sm:w-24 h-7 w-12 md:w-64"
                   type="text"
                 />
-                <button className="h-10 text-white w-64 bg-blue-500 rounded-md my-2">
+                <button className="h-10 text-white md:w-48 sm:w-32 bg-blue-500 rounded-md my-2">
                   Subscribe
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex justify-between my-3 items-center container mx-auto border border-y border-x-0 border-black">
+        <div className="md:flex justify-between my-3 items-center container mx-auto border border-y border-x-0 border-black hidden ">
           <div className="flex items-center">
             <img className="size-24 mx-3" src={logo} alt="" />
             <div className="flex flex-col">
