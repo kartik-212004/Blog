@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A blog application that allows users to create, view, edit, and delete posts. The app is built using **React** and **TypeScript** on the frontend, with other supporting technologies like **Tailwind CSS** for styling.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## File Overview
 
-## Expanding the ESLint configuration
+- **App.tsx**: Entry point for the main application.
+- **navbar.tsx**: Navbar component for site navigation.
+- **contact.tsx**: Contact page component.
+- **pages.tsx**: Handles routing and page rendering.
+- **articleGrid.tsx**: Displays a grid of blog articles.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Ensure you have the following installed:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Node.js (v14+)
+- npm or yarn
+- A code editor like Visual Studio Code
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow the steps below to set up and run the project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 1. Clone the Repository
+
+```bash
+git clone git@github.com:kartik-212004/Blog.git
+
+cd blog-app
+npm  run dev 
+or 
+yarn dev
+cd blog-app
